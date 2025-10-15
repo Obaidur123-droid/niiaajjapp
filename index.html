@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📋 Attendance App</h1>
+
+    <input type="text" id="studentName" placeholder="Enter student name">
+    <button id="addBtn">Add Student</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="attendanceTable"></tbody>
+    </table>
+
+    <button id="saveBtn">Save Attendance</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
